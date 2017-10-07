@@ -13,7 +13,8 @@ namespace CSharp_Lesson_01
 
             Console.Write("Hello world!");
             Console.ReadKey();
-
+            Console.Write("My first program");
+            Console.ReadKey();    
         }
     }
 }
