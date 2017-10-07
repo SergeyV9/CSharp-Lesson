@@ -10,6 +10,10 @@ namespace CSharp_Lesson_01
     {
         static void Main(string[] args)
         {
+
+            Console.Write("Hello world!");
+            Console.ReadKey();
+
         }
     }
 }
