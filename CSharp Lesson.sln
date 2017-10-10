@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp Lesson_01", "CSharp Lesson_01\CSharp Lesson_01.csproj", "{2CEB4646-224C-4E47-91F3-3C1C24FDB2C9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson_01", "Lesson_01\CSharp Lesson_01.csproj", "{2CEB4646-224C-4E47-91F3-3C1C24FDB2C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp Lesson_02", "CSharp Lesson_02\CSharp Lesson_02.csproj", "{43623939-5234-4812-8DC8-3E1C11F5F011}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson_02", "Lesson_02\CSharp Lesson_02.csproj", "{43623939-5234-4812-8DC8-3E1C11F5F011}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson_03_LocalVariable", "Lesson_03_LocalVariable\Lesson_03_LocalVariable.csproj", "{466CC59A-912F-41BB-A7DC-EA43B43BD5DB}"
 EndProject
