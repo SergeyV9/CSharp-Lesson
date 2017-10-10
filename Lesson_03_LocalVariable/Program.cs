@@ -21,6 +21,7 @@ namespace Lesson_03_LocalVariable
 
                 int a = 5;
                 Console.WriteLine(a);
+                Console.ReadKey();
 
             }
 
