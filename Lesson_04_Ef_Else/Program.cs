@@ -24,7 +24,7 @@ namespace Lesson_04_Ef_Else
             else
         	{
 
-                Console.WriteLine("a навно b");
+                Console.WriteLine("a равно b");
                 
             }
 
