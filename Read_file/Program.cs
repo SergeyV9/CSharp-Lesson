@@ -8,7 +8,7 @@ namespace Read_file
         static void Main(string[] args)
         {
 
-            string[] spline = File.ReadAllLines("C:\\Users\\Sergey\\source\\test_dot_ref.txt");
+            string[] spline = File.ReadAllLines("C:\\Users\\esins\\source\\repos\\CSharp-Lesson\\Read_file\\test_dot_ref.txt");
             string[,] myresut = new string[spline.Length, 5];
             string mywords = "";
 
