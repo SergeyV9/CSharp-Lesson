@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvvmExample", "Easy MVVM Ex
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_Lesson_02", "WPF_Lesson_02\WPF_Lesson_02.csproj", "{C317E3C9-E284-4F31-A034-DBDF37D2E19D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_lesson_03", "WPF_lesson_03\WPF_lesson_03.csproj", "{442FDAFD-7B73-4186-99EF-B0D33AAAD364}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +131,14 @@ Global
 		{C317E3C9-E284-4F31-A034-DBDF37D2E19D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C317E3C9-E284-4F31-A034-DBDF37D2E19D}.Release|x86.ActiveCfg = Release|Any CPU
 		{C317E3C9-E284-4F31-A034-DBDF37D2E19D}.Release|x86.Build.0 = Release|Any CPU
+		{442FDAFD-7B73-4186-99EF-B0D33AAAD364}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{442FDAFD-7B73-4186-99EF-B0D33AAAD364}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{442FDAFD-7B73-4186-99EF-B0D33AAAD364}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{442FDAFD-7B73-4186-99EF-B0D33AAAD364}.Debug|x86.Build.0 = Debug|Any CPU
+		{442FDAFD-7B73-4186-99EF-B0D33AAAD364}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{442FDAFD-7B73-4186-99EF-B0D33AAAD364}.Release|Any CPU.Build.0 = Release|Any CPU
+		{442FDAFD-7B73-4186-99EF-B0D33AAAD364}.Release|x86.ActiveCfg = Release|Any CPU
+		{442FDAFD-7B73-4186-99EF-B0D33AAAD364}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
