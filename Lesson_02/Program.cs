@@ -10,14 +10,13 @@ namespace Lesson_02
     {
         static void Main(string[] args)
         {
-            Myclacc myclacc = new Myclacc();
-            MyBoock boock = new MyBoock();
+            MyClacc myclacc = new MyClacc(651561651);
+            MyBoocks boock = new MyBoocks();
 
             //myclacc.Sos();
-            Console.WriteLine("Переменная класса " + myclacc.Id);
+            Console.WriteLine($"Переменная класса MyClass = {myclacc.Id}");
             boock.ID = 1000;
-            string G = boock.ToString();
-            Console.WriteLine("Переменная " + boock.ToString() + " = " + boock.ID);
+            Console.WriteLine($"Пременная класса MyBoock = {boock.ID}");
 
             Console.ReadKey();
 
@@ -25,37 +24,50 @@ namespace Lesson_02
     }
 
 
-    class Myclacc
+    class MyClacc
     {
-        public int Id { get; set; } = 33;
+        public double Id { get; set; }
 
-        //public void Sos()
-        //{
-        //    Console.WriteLine("Метод класса");
-        //}
+        public MyClacc() // пустой конструктор класса
+        {
+        }
+
+        public MyClacc(double i) //конструктор класса с 1 входным параметром
+        {
+            Id = Math.Sqrt(i);
+        }
+
+        public void Sos()
+        {
+            Console.WriteLine("Метод класса");
+        }
     }
 
 
-    class MyBoock
+    #region Класс MyBoock
+
+    class MyBoocks
     {
-       private int id;
-       
+        private int id;
 
         public int ID
         {
-            get
-            {
-                return id;
-            }
+            get => id;
 
             set
             {
-                if(value > 0)
+                if (value > 0)
                 {
-                    id = value / 2;
+                    id = value;
                 }
 
             }
         }
-    }
+
+        public MyBoocks()
+        {
+            id = Convert.ToInt32(Math.Sqrt(ID));
+        }
+    } 
+    #endregion
 }
