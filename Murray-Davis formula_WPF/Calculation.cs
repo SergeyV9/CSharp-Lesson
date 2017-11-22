@@ -31,7 +31,7 @@ namespace Murray_Davis_formula_WPF
 
             double c = 100 * ((1 - Math.Pow(10, -b)) / (1 - Math.Pow(10, -a)));
 
-            return (c);
+            return c;
 
             //MessageBox.Show("Растровая плашка равна " + c + "%");
 
